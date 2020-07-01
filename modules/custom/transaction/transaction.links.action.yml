@@ -1,0 +1,12 @@
+transaction_entity_action_add:
+  route_name: entity.transaction.add_page
+  title: 'Add Transaction entity'
+  appears_on:
+    - entity.transaction.collection
+
+transaction_entity_type_action_add:
+  route_name: entity.transaction_type.add_form
+  title: 'Add Transaction entity type (bundle)'
+  appears_on:
+    - entity.transaction_type.collection
+

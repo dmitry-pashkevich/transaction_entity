@@ -1,0 +1,6 @@
+administer transaction types:
+  title: 'Administer TransactionEntity types'
+  restrict access: true
+
+permission_callbacks:
+  - '\Drupal\transaction\TransactionPermissionsGenerator::transactionTypePermissions'

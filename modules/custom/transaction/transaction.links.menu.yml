@@ -1,0 +1,17 @@
+
+transaction_entity_menu:
+  title: Transaction
+  route_name: entity.transaction.collection
+  parent: system.admin_structure
+
+transaction_entity_collection_menu:
+  title: 'Submissions'
+  route_name: entity.transaction.collection
+  description: 'List of Transaction entities'
+  parent: transaction_entity_menu
+
+transaction_type_entity_collection_menu:
+  title: 'Settings'
+  route_name: entity.transaction_type.collection
+  description: 'List of Bundles'
+  parent: transaction_entity_menu
